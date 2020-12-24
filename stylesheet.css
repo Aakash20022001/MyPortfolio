@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Times New Roman";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+   header {
+    height: 65px;
+    width: 100%;
+    background-color:rgb(31, 28, 28);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .photo {
+    width: 124px;
+    height: 65px;
+    width: 65px;
+    float: left;
+    border-radius: 50%;
+    /* margin-top: 20px; */
+  }
+  .header-left {
+    float: left;
+  }
+  .headertxt{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+  }
+  .header-right {
+    float: right;
+    margin-right: 25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Add CSS for menu-icon */
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Change the display property to none */
+    display:none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    color:white;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .top-wrapper {
+    padding: 38px 0 20px 0;
+    background-image: url("images/5.jpg");
+    background-size: cover;
+    color:white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+  }
+   .photos{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    opacity: 1.2;
+  }
+  .transbox{
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 8px; 
+    /*background-color:rgb(34, 33, 33); */
+    /* border:1px solid white; */
+    border-radius:10px;
+    opacity: 1;
+    font-size:20px;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+#hobbies-container h1,h2{
+    text-align: center;
+  }
+#hobbies-container{
+    margin-top: 0px;
+    background-image: url("images/6.jpg");
+    background-size: cover;
+    color:white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:1;
+    padding-top: 70px;
+}
+#hobbies {
+    margin: 0px;
+    display:flex;
+}
+#hobbies .box {
+    border: 2px solid rgb(247, 247, 247);
+    padding: 34px;
+    margin: 2px 25px; 
+    border-radius: 28px;
+    /* background-color: rgb(172, 166, 143); */
+    margin-bottom: 50px;
+   
+}
+
+#hobbies .box img{
+    height: 160px;
+    image-orientation: flip;
+    margin:auto;
+    border-radius: 50%;
+    display: block;
+}
+#hobbies .box  p{
+    font-family:'Bree Serif', serif;
+}
+.skills{
+  border: 2px solid rgb(247, 247, 247);
+    padding: 34px;
+    margin: 2px 25px; 
+    border-radius: 28px;
+
+}
+#projectid{
+  margin-top: 0px;
+  background-image: url("images/6.jpg");
+  background-size: cover;
+  color:white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity:1;
+  font-size: 20px;
+  margin-top: -25px;
+} 
+#projectid h1,h2{
+  text-align: center;
+  padding-top: 80px;
+} 
+
+#project-title{
+  /* border: 2px solid rgb(247, 247, 247); */
+    padding: 14px;
+    margin: 2px 25px; 
+    /* border-radius: 28px; */
+    /* background-color: rgb(172, 166, 143); */
+    margin-bottom: 0px;
+} 
+.btn-wrapper {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.site {
+  background-color:burlywood;
+  margin-bottom: 240px;
+}
+
+.btn:hover{
+  background-color: #b1bbb8;
+}
+.btn {
+  padding: 3px 40px;
+  color: rgb(44, 43, 43);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.fa {
+  margin-right: 5px;
+}
+.linkedin {
+  background-color:#0e76A8;
+  color:azure;
+  padding: 15px 50px;
+} 
+.github{
+  background-color: #239b76;
+  color:azure;
+  padding: 15px 50px;
+  margin-bottom: 60px;
+} 
+#profile-link h1,h2{
+  text-align: center;
+} 
+#profile-link{
+  margin-top: 0px;
+  background-image: url("images/3.jpg");
+  background-size: cover;
+  color:white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity:1;
+  padding-top: 60px;
+  padding-bottom: 350px;
+}  
+.gmail{
+  color:azure;
+}
+.cn{
+  margin:12px;
+}
+#contact h1,h2{
+  text-align: center;
+} 
+#contact{
+  margin-top: 0px;
+  background-image: url("images/6.jpg");
+  background-size: cover;
+  color:white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity:1;
+  font-size: 22px;
+  margin-top: -11px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}  
